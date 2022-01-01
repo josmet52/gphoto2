@@ -6,3 +6,4 @@ sudo mencoder -nosound -ovc lavc -lavcopts vcodec=mpeg4:aspect=16/9:vbitrate=800
 sudo mv timelapse.mp4 "../videos/tl-$(date +"%Y%m%d_%H%M%S").mp4"
 cd ..
 
+
